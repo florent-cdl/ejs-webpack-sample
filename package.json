@@ -1,5 +1,5 @@
 {
-  "name": "ejs-sample-loader",
+  "name": "ejs-webpack-sample",
   "version": "1.0",
   "description": "EJS loader for webpack webpack config sample.",
   "main": "index.js",
@@ -9,21 +9,21 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/fjo/ejs-sample-loader.git"
+    "url": "git+https://github.com/florent-cdl/ejs-webpack-sample"
   },
   "keywords": [
     "ejs",
     "templating",
     "loader",
     "webpack",
-    "ejs-sample-loader"
+    "ejs-webpack-sample"
   ],
-  "author": "fjo (https://github.com/fjo)",
+  "author": "florent-cdl (https://github.com/florent-cdl)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/fjo/ejs-sample-loader/issues"
+    "url": "https://github.com/florent-cdl/ejs-webpack-sample/issues"
   },
-  "homepage": "https://github.com/fjo/ejs-sample-loader",
+  "homepage": "https://github.com/florent-cdl/ejs-webpack-sample",
   "devDependencies": {
     "ejs": "^3.0.1",
     "ejs-easy-loader": "^0.1.4",
