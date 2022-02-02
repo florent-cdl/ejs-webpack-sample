@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8"/>
+  <title><%= title %></title>
+</head>
+<body>
+  <div id="header"><h2>Common Page Header</h2></div>
+  <div id="content">
+    <% if (name === "a") { %>
+      <%- include('./page-a.ejs') /* include partial file without parameter */ %>
+    <% } else if (name === "b") { %>
+      <%- include('./page-b.ejs', locals) /* pass an object to partial file */ %>
+    <% } %>
+  </div>
+  <div id="footer"><h2>Common Page Footer</h2></div>
+</body>
+</html>
