@@ -27,13 +27,12 @@ module.exports = {
             name: "a",
           }
         },
-        template: './src/template.ejs',
+        templatePath: './src/template.ejs',
       }),
     }),
     new HtmlWebpackPlugin({
       inject: true,
       filename: './page-b.html',
-      title: 'Page B Title',
       template: htmlWebpackPluginTemplateCustomizer({
         htmlLoaderOption:{
           // set individual html-loader option here
@@ -44,9 +43,10 @@ module.exports = {
             name: "b",
             obj: {"food": "fruit"},
             arr: ["apple", "orange", "banana"],
+            title: 'Page B Title',
           }
         },
-        template: './src/template.ejs',
+        templatePath: './src/template.ejs',
       }),
     }),
   ]
