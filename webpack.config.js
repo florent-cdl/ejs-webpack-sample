@@ -36,6 +36,7 @@ module.exports = {
       template: htmlWebpackPluginTemplateCustomizer({
         htmlLoaderOption:{
           // set individual html-loader option here
+          sources: false
         },
         templateEjsLoaderOption:{
           root:'', // set individual template-ejs-loader option here
